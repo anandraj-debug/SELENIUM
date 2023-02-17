@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-17T16:46:05 IST" name="Surefire suite" finished-at="2023-02-17T16:48:46 IST" duration-ms="160203">
+    <groups>
+    </groups>
+    <test started-at="2023-02-17T16:46:05 IST" name="Surefire test" finished-at="2023-02-17T16:48:46 IST" duration-ms="160203">
+      <class name="com.amazon.TestNgTest">
+        <test-method signature="browserLaunh()[pri:0, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:46:05 IST" name="browserLaunh" finished-at="2023-02-17T16:47:11 IST" duration-ms="65483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunh -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:47:11 IST" name="screenShot" finished-at="2023-02-17T16:47:11 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=browserLaunh status=SUCCESS method=TestNgTest.browserLaunh()[pri:0, instance:com.amazon.TestNgTest@6f46426d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="dropDown()[pri:1, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:47:11 IST" name="dropDown" finished-at="2023-02-17T16:47:21 IST" duration-ms="10093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDown -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:47:21 IST" name="screenShot" finished-at="2023-02-17T16:47:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dropDown status=SUCCESS method=TestNgTest.dropDown()[pri:1, instance:com.amazon.TestNgTest@6f46426d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="search()[pri:2, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:47:21 IST" name="search" finished-at="2023-02-17T16:47:40 IST" duration-ms="19378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:47:40 IST" name="screenShot" finished-at="2023-02-17T16:47:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=TestNgTest.search()[pri:2, instance:com.amazon.TestNgTest@6f46426d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="minimumPrice()[pri:3, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:47:40 IST" name="minimumPrice" finished-at="2023-02-17T16:48:20 IST" duration-ms="39176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimumPrice -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:48:20 IST" name="screenShot" finished-at="2023-02-17T16:48:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=minimumPrice status=SUCCESS method=TestNgTest.minimumPrice()[pri:3, instance:com.amazon.TestNgTest@6f46426d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="addCart()[pri:0, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:48:20 IST" name="addCart" finished-at="2023-02-17T16:48:33 IST" depends-on-methods="com.amazon.TestNgTest.minimumPrice" duration-ms="13635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:48:33 IST" name="screenShot" finished-at="2023-02-17T16:48:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addCart status=SUCCESS method=TestNgTest.addCart()[pri:0, instance:com.amazon.TestNgTest@6f46426d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="goCart()[pri:5, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:48:33 IST" name="goCart" finished-at="2023-02-17T16:48:38 IST" duration-ms="4927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goCart -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:48:38 IST" name="screenShot" finished-at="2023-02-17T16:48:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goCart status=SUCCESS method=TestNgTest.goCart()[pri:5, instance:com.amazon.TestNgTest@6f46426d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="quantityIncreas()[pri:6, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:48:38 IST" name="quantityIncreas" finished-at="2023-02-17T16:48:42 IST" duration-ms="3655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quantityIncreas -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:48:42 IST" name="screenShot" finished-at="2023-02-17T16:48:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=quantityIncreas status=SUCCESS method=TestNgTest.quantityIncreas()[pri:6, instance:com.amazon.TestNgTest@6f46426d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="delete()[pri:7, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:48:42 IST" name="delete" finished-at="2023-02-17T16:48:45 IST" duration-ms="3375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:48:45 IST" name="screenShot" finished-at="2023-02-17T16:48:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=delete status=SUCCESS method=TestNgTest.delete()[pri:7, instance:com.amazon.TestNgTest@6f46426d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method signature="browserclose()[pri:0, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:48:45 IST" name="browserclose" finished-at="2023-02-17T16:48:46 IST" depends-on-methods="com.amazon.TestNgTest.delete" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method is-config="true" signature="screenShot(org.testng.ITestResult)[pri:0, instance:com.amazon.TestNgTest@6f46426d]" started-at="2023-02-17T16:48:46 IST" name="screenShot" finished-at="2023-02-17T16:48:46 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=browserclose status=SUCCESS method=TestNgTest.browserclose()[pri:0, instance:com.amazon.TestNgTest@6f46426d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- com.amazon.TestNgTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
